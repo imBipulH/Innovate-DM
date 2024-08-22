@@ -20,7 +20,8 @@ const Navbar = () => {
             </div>
           ))}
         </div>
-        <img src="/public/vite.svg"/>
+        <img src="/vite.svg"/>
+        <img src="/vite.svg"/>
         <button className='px-5 py-3 text-lg font-sans bg-primary font-semibold text-white rounded-full'>
           Contact Us
         </button>
