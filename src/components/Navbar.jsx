@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className='container py-4'>
       <div className='flex items-center justify-between'>
-        <img src='/src/assets/Logo.png' alt='Logo' />
+        <img src='/assets/Logo.png' alt='Logo' />
         <div className='lg:flex hidden gap-8'>
           {NavbarData.map((item, i) => (
             <div
@@ -20,8 +20,6 @@ const Navbar = () => {
             </div>
           ))}
         </div>
-        <img src="/vite.svg"/>
-        <img src="/vite.svg"/>
         <button className='px-5 py-3 text-lg font-sans bg-primary font-semibold text-white rounded-full'>
           Contact Us
         </button>
