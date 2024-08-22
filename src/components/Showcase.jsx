@@ -48,7 +48,7 @@ const Showcase = () => {
       <div className='my-6 flex flex-wrap lg:flex-nowrap gap-6'>
         <div className='h-[432px] lg:w-[37%] bg-gray rounded-2xl overflow-hidden'>
           <img
-            src='/src/assets/colorfulnotebook.avif'
+            src='/assets/colorfulnotebook.avif'
             className='w-full h-full'
           />
         </div>

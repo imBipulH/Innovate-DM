@@ -1,18 +1,18 @@
-import Button from "./utils/Button"
+import Button from './utils/Button'
 
 const ServiceData = [
   {
-    icon: '/src/assets/State.png',
+    icon: '/assets/State.png',
     title: 'Marketing Strategy',
     des: 'Social Media has changed the way we interact & do business while creating'
   },
   {
-    icon: '/src/assets/Social.png',
+    icon: '/assets/Social.png',
     title: 'Social Marketing',
     des: 'Social Media has changed the way we interact & do business while creating'
   },
   {
-    icon: '/src/assets/Content.png',
+    icon: '/assets/Content.png',
     title: 'Content Marketing',
     des: 'Social Media has changed the way we interact & do business while creating'
   }
@@ -22,7 +22,7 @@ const Services = () => {
   return (
     <div className='container'>
       <div className='flex flex-col items-center mt-20'>
-        <img src='/src/assets/BannerLines.png' className='w-28' />
+        <img src='/assets/BannerLines.png' className='w-28' />
         <h2 className='text-[48px] font-extrabold'>Our Services</h2>
         <p className='text-center text-lg font-paprika text-slate my-4'>
           We have been providing great <br /> flooring solutions service.
@@ -44,7 +44,7 @@ const Services = () => {
             <p className='mb-4 text-lg text-slate text-center font-paprika '>
               {item.des}
             </p>
-         <Button text="Read More"/>
+            <Button text='Read More' />
           </div>
         ))}
       </div>

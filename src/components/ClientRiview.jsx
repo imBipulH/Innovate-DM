@@ -16,9 +16,11 @@ const ClientRiview = () => {
   return (
     <div className='container py-2 lg:py-14'>
       <div className='grid lg:grid-cols-3 gap-10'>
-        <div className="w-full text-center lg:text-left">
-          <img src='/src/assets/BannerLines.png' className='w-28 m-auto lg:ml-0' />
-          <h2 className='text-4xl lg:text-[48px] font-extrabold'>Client Review</h2>
+        <div className='w-full text-center lg:text-left'>
+          <img src='/assets/BannerLines.png' className='w-28 m-auto lg:ml-0' />
+          <h2 className='text-4xl lg:text-[48px] font-extrabold'>
+            Client Review
+          </h2>
           <p className='font-paprika text-base lg:text-lg text-slate my-4'>
             people use digital devices instead of visiting physical shops,
             digital marketing campaigns are becoming more prevalent and
@@ -41,7 +43,7 @@ const ClientRiview = () => {
                     className='w-20 aspect-square rounded-full'
                   />
                   <img
-                    src='/src/assets/ReviewerLogo.png'
+                    src='/assets/ReviewerLogo.png'
                     className='absolute left-14 -bottom-1'
                   />
                 </div>
