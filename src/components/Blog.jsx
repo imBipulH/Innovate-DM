@@ -34,7 +34,7 @@ const Blog = () => {
       </div>
       <div className='my-14 lg:grid grid-cols-3 gap-8'>
         {BlogData.map((item, i) => (
-          <div key={i} className='rounded-2xl overflow-hidden shadow-lg mb-8'>
+          <div key={i} className='rounded-2xl overflow-hidden shadow-lg mb-8 hover:-translate-y-2 duration-200'>
             <img
               src={item.image}
               alt={item.title}

@@ -23,7 +23,16 @@ export default {
         primary: '#FF7628',
         slate: '#6C7D93',
         gray: '#C4C4C4',
-        dgray: "#413F45"
+        dgray: '#413F45'
+      },
+      animation: {
+        wiggle: 'wiggle 2s ease-in-out infinite'
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-45deg)' },
+          '50%': { transform: 'rotate(3deg)' }
+        }
       }
     }
   },

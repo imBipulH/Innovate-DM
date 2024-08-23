@@ -4,8 +4,10 @@ import Heading from './utils/Heading'
 // eslint-disable-next-line react/prop-types
 const Card = ({ btnTitle, title, des, color }) => {
   return (
-    <div className={`bg-[${color}] rounded-3xl p-4 lg:p-8 lg:w-[495px] h-full`}>
-   <Button text={btnTitle} />
+    <div
+      className={`bg-[${color}] rounded-3xl p-4 lg:p-8 lg:w-[495px] h-full duration-200 hover:scale-105 hover:mb-5`}
+    >
+      <Button text={btnTitle} />
       <h3 className='text-2xl lg:text-3xl font-sans font-semibold my-4'>
         {title}
       </h3>

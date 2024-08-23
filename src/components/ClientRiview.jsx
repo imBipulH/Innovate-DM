@@ -32,7 +32,7 @@ const ClientRiview = () => {
             <div
               key={i}
               className={` w-full lg:w-1/2 & shadow-md py-10 px-10 mb-8 flex flex-col justify-between rounded-2xl ${
-                i === 0 ? 'bg-[#D8EAFF]' : 'bg-[#FFFFFF]'
+                i === 0 ? 'bg-[#D8EAFF]' : 'bg-[#FFFFFF] ' 
               }`}
             >
               <p className='text-lg font-paprika text-slate'>{item.msg}</p>

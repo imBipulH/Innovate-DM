@@ -7,6 +7,7 @@ import Showcase from './components/Showcase'
 import Process from './components/Process'
 import ClientRiview from './components/ClientRiview'
 import Blog from './components/Blog'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Process />
       <ClientRiview />
       <Blog />
+      <Footer />
     </>
   )
 }

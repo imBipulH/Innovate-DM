@@ -20,7 +20,7 @@ const Navbar = () => {
             </div>
           ))}
         </div>
-        <button className='px-5 py-3 text-lg font-sans bg-primary font-semibold text-white rounded-full'>
+        <button className='px-5 py-3 text-lg font-sans bg-primary font-semibold text-white rounded-full hover:scale-105 hover:shadow-2xl active:bg-primary/50 '>
           Contact Us
         </button>
       </div>
