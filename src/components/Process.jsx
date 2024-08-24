@@ -5,7 +5,7 @@ import Heading from './utils/Heading'
 const Card = ({ btnTitle, title, des, color }) => {
   return (
     <div
-      className={`bg-[${color}] rounded-3xl p-4 lg:p-8 lg:w-[495px] h-full duration-200 hover:scale-105 hover:mb-5`}
+      className={`bg-[${color}] rounded-3xl p-4 lg:p-8 w-full lg:w-[495px] h-full duration-200 md:hover:scale-105 md:hover:mb-5`}
     >
       <Button text={btnTitle} />
       <h3 className='text-2xl lg:text-3xl font-sans font-semibold my-4'>
@@ -19,7 +19,7 @@ const Card = ({ btnTitle, title, des, color }) => {
 // eslint-disable-next-line react/prop-types
 const BlankCard = ({ img }) => {
   return (
-    <div className='flex flex-col items-center lg:w-1/2 h-[324px] overflow-hidden bg-slate rounded-3xl'>
+    <div className='flex flex-col items-center w-full lg:w-1/2 h-[324px] overflow-hidden bg-slate rounded-3xl'>
       <img src={img} className='w-full h-full' />
     </div>
   )

@@ -11,7 +11,7 @@ const showcaseData = [
 const Showcase = () => {
   return (
     <div className='container py-2 lg:py-20'>
-      <Heading title={'Work Showcase'} />
+      <Heading title='Work Showcase' />
       <div className='flex justify-center lg:justify-start flex-wrap mt-10 gap-8'>
         {showcaseData.map((item, i) => (
           <p
@@ -25,7 +25,7 @@ const Showcase = () => {
         ))}
       </div>
       {/* Add your showcase images here */}
-      <div className='mt-14 flex flex-wrap lg:flex-nowrap gap-6'>
+      <div className='mt-14 flex flex-wrap justify-center lg:flex-nowrap gap-6'>
         <div className='h-[344px] size-full w-full max-w-fit lg:w-1/4 bg-gray rounded-2xl overflow-hidden hover:scale-105 duration-200'>
           <img
             src='https://shorturl.at/mGLe7'
@@ -45,7 +45,7 @@ const Showcase = () => {
           />
         </div>
       </div>
-      <div className='my-6 flex flex-wrap lg:flex-nowrap gap-6'>
+      <div className='my-6 flex flex-wrap justify-center lg:flex-nowrap gap-6'>
         <div className='h-[432px] lg:w-[37%] bg-gray rounded-2xl overflow-hidden hover:scale-105 duration-200'>
           <img
             src='/assets/colorfulnotebook.avif'
