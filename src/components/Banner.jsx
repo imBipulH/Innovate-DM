@@ -5,7 +5,7 @@ export const Banner = () => {
       <div className='hidden xl:block absolute -top-32 -left-96'>
         <img src='/assets/BannerImage1.png' />
         <img className='absolute top-40 left-24' src='/3D Images.png' />
-        <div className='w-96 aspect-square rounded-full absolute left-10 top-80 -z-20 bg-green-100/60 blur-3xl shadow-[-200px_-200px_100px_00px_#d3f5df]'></div>
+        <div className='w-96 aspect-square rounded-full absolute left-10 top-80 -z-20 bg-green-100/60 blur-3xl shadow-[-100px_-100px_100px_0px_#d3f5df]'></div>
       </div>
 
       {/* Banner Left Side Inside Container Part */}

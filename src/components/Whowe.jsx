@@ -1,6 +1,17 @@
 const Whowe = () => {
+  const brandzlogo = [
+    { logo: '/assets/logo1.png' },
+    { logo: '/assets/logo2.png' },
+    { logo: '/assets/logo3.png' },
+    { logo: '/assets/logo4.png' },
+    { logo: '/assets/logo5.png' },
+    { logo: '/assets/logo6.png' }
+  ]
+
   return (
-    <div className='container py-2 lg:py-14'>
+    <div className='container py-2 lg:py-14 relative'>
+      <div className='w-96 aspect-square rounded-full absolute -left-48 top-64 -z-20 bg-primary/10 blur-3xl shadow-[-300px_-100px_300px_0px_#fccfb1]'></div>
+
       <div className='grid place-items-center lg:grid-cols-2 gap-14'>
         {/* <img src='/assets/WhoImage1.png' alt='LOGO' className='m-auto' /> */}
         <div className='relative w-full h-full flex justify-end items-start'>
@@ -34,7 +45,7 @@ const Whowe = () => {
           <p className='text-sm font-paprika text-slate'>
             Join the 10.000+ Companys Trusting{' '}
           </p>
-          <div className='flex justify-around lg:justify-start lg:gap-14 my-10'>
+          {/* <div className='flex justify-around lg:justify-start lg:gap-14 my-10'>
             <img src='/assets/logo1.png' />
             <img src='/assets/logo1.png' />
             <img src='/assets/logo1.png' />
@@ -43,6 +54,12 @@ const Whowe = () => {
             <img src='/assets/logo1.png' />
             <img src='/assets/logo1.png' />
             <img src='/assets/logo1.png' />
+          </div> */}
+
+          <div className='grid mx-auto lg:ml-0 grid-cols-3 my-8 gap-8 w-3/4'>
+            {brandzlogo.map((item, i) => (
+              <img key={i} src={item.logo} alt='Logo' className='' />
+            ))}
           </div>
         </div>
       </div>
